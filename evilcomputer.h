@@ -25,10 +25,9 @@ private:
     int index(string user);
     char random_char();
 
-    // This field keep the passwords of users. Notice it is private, so you can not access it from hack.cpp
+    // This field keep the passwords of users. 
     string passwords[5];
-    // This field keeps track if the user is hacked or not. Notice it is private, so you can not access it from hack.cpp
-    // But you can use guess to update it and you can use is_hack to check if the person is hacked or not
+    // This field keeps track if the user is hacked or not. 
     bool hacked[5];
 };
 
